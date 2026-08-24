@@ -1938,3 +1938,22 @@ h2 em {
     display: none;
   }
 }
+
+.footer-social {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 18px;
+  color: rgba(245, 248, 247, .68);
+  font-size: 14px;
+  font-weight: 450;
+  transition: color .25s ease;
+}
+
+.footer-social:hover {
+  color: var(--cyan);
+}
+
+.footer-social svg {
+  flex-shrink: 0;
+}
